@@ -45,16 +45,20 @@ public class Order {
                 //customerName = Scanner.NextLine();
                 break;
             case '2':
-                System.out.println("Enter Order ID: ");
-                //orderId = Scanner.NextLine();
+                System.out.println("Enter Product: ");
+                //productName = Scanner.NextLine();
                 break;
             case '3':
-                System.out.println("Enter Order ID: ");
-                //orderId = Scanner.NextLine();
+                System.out.println("Enter Price: ");
+                //price = Scanner.NextLine();
                 break;
             case '4':
-                System.out.println("Enter Order ID: ");
-                //orderId = Scanner.NextLine();
+                System.out.println("Enter Price: ");
+                //quantity = Scanner.NextLine();
+                break;
+                default;
+                    System.out.println("Invalid Input");
+                    break;
         }
 
 
